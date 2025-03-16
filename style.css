@@ -62,11 +62,22 @@ button{
     border-radius: 5rem;
     align-items: center;
     justify-content: center;
-    border: 2px solid white;
-    background-color: transparent;
-    color: white;
+    border: none;
+    background-color: white;
     font-weight: 600;
     font-size: 1rem;
+}
+
+.sedans button{
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs button{
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury button{
+    color: hsl(179, 100%, 13%);
 }
 
 button:hover{
@@ -146,6 +157,7 @@ button:hover{
         width: 12rem;
         background-color: white;
         font-size: 1.2rem;
+        border: none;
     }
 
     .sedans button{
